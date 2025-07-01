@@ -2,13 +2,29 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
 
-header, footer {
-  background-color: #222;
+header {
+  background-color: #333;
   color: white;
-  text-align: center;
   padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -16,8 +32,19 @@ main {
   text-align: center;
 }
 
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 .responsive-img {
   width: 100%;
   height: auto;
   max-width: 900px;
+  margin-top: 1rem;
 }
